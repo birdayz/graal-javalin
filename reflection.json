@@ -1,16 +1,30 @@
-  [
-   {
-    "name" : "[Lorg.eclipse.jetty.servlet.ServletMapping;",
+[
+  {
+    "name": "[Lorg.eclipse.jetty.servlet.ServletMapping;",
     "allDeclaredFields": true,
     "allPublicFields": true,
     "allDeclaredMethods": true,
     "allPublicMethods": true
-   },
-{
-    "name" : "org.slf4j.impl.StaticLoggerBinder",
+  },
+  {
+    "name": "org.slf4j.impl.StaticLoggerBinder",
     "allDeclaredFields": true,
     "allPublicFields": true,
     "allDeclaredMethods": true,
     "allPublicMethods": true
-   }
+  },
+  {
+    "name": "com.fasterxml.jackson.databind.ObjectMapper",
+    "allDeclaredFields": true,
+    "allPublicFields": true,
+    "allDeclaredMethods": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "de.nerden.samples.graal.Test",
+    "allDeclaredFields": true,
+    "allPublicFields": true,
+    "allDeclaredMethods": true,
+    "allPublicMethods": true
+  }
 ]
