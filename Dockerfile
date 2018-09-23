@@ -5,8 +5,8 @@ WORKDIR /tmp/build
 ENV GRADLE_USER_HOME /tmp/build/.gradle
 
 ADD . /tmp/build
-RUN ./gradlew build
-RUN native-image -jar ./build/libs/graal-javalin-all-1.0-SNAPSHOT.jar -H:ReflectionConfigurationFiles=reflection.json -H:+JNI \
+RUN ./gradlew build fatJar
+RUN native-image -jar /tmp/build/build/libs/graal-javalin-all-1.0-SNAPSHOT.jar -H:ReflectionConfigurationFiles=reflection.json -H:+JNI \
   -H:Name=graal-httpserver --static
 
 FROM scratch
