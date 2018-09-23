@@ -2,13 +2,14 @@ package de.nerden.samples.graal;
 
 public class Test {
 
-    private String abc;
+    private String someValue
+        ;
 
-    public String getAbc() {
-        return abc;
+    public String getSomeValue() {
+        return someValue;
     }
 
-    public void setAbc(String abc) {
-        this.abc = abc;
+    public void setSomeValue(String someValue) {
+        this.someValue = someValue;
     }
 }
