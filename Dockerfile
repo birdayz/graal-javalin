@@ -1,6 +1,5 @@
 FROM birdy/graalvm:latest
 
-SHELL ["bash", "--login", "-c"]
 WORKDIR /tmp/build
 ENV GRADLE_USER_HOME /tmp/build/.gradle
 
