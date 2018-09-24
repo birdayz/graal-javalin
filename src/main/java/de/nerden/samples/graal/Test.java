@@ -2,8 +2,7 @@ package de.nerden.samples.graal;
 
 public class Test {
 
-    private String someValue
-        ;
+    private String someValue;
 
     public String getSomeValue() {
         return someValue;
