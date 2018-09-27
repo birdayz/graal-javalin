@@ -1,3 +1,4 @@
+.PHONY: build native setup
 build:
 	./gradlew clean build fatJar
 native: build
