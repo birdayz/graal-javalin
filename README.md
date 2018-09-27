@@ -5,4 +5,4 @@ This sample shows how to build a Javalin microservice and compiling it to native
 
 Build either by using Docker and running `docker build .` or directly with Gradle and native-image by running `make build native`.
 
-Find the docker image of this example on [https://hub.docker.com/r/birdy/graal-javalin/](DockerHub).
+Find the docker image of this example on [DockerHub](https://hub.docker.com/r/birdy/graal-javalin).
